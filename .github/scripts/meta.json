@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://github.com/airbytehq/airbyte",
+  "branch": "master",
+  "docusaurusRoot": "docusaurus",
+  "configFile": "docusaurus/docusaurus.config.ts",
+  "translateCommand": "pnpm run write-translations",
+  "buildCommand": "NODE_OPTIONS='--max-old-space-size=6144' pnpm run build",
+  "buildOutput": "build",
+  "packageManager": "pnpm"
+}
